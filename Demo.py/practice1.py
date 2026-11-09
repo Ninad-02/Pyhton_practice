@@ -89,55 +89,55 @@ print(employee,type(employee))
 
 #input output
 #1.
-name = str(input("Enter your name: "))
-print("My name is",name)
+#name = str(input("Enter your name: "))
+#print("My name is",name)
 
 
 #2.
-age = int(input("Enter your age"))
-print("My age is",age)
+#age = int(input("Enter your age"))
+#print("My age is",age)
 
 
 #3.
-salary = float(input("Enter salaru"))
-print("My salary is",salary)
+#salary = float(input("Enter salaru"))
+#print("My salary is",salary)
 
 
 #4.
-x = int(input("enter first number"))
-y = int(input("Enter second number"))
-print("total= ",x+y)
+#x = int(input("enter first number"))
+#y = int(input("Enter second number"))
+#print("total= ",x+y)
 
 
 #5.
-Marks = float(input("Enter your marks"))
-print("My marks are",Marks)
+#Marks = float(input("Enter your marks"))
+#print("My marks are",Marks)
 
 
 #6.
-City = str(input("Enter your city"))
-print("My city is",City)
+#City = str(input("Enter your city"))
+#print("My city is",City)
 
 
 #7.
-Temperature = int(input("Enter a value"))
-print("Todays temperature is",Temperature)
+#Temperature = int(input("Enter a value"))
+#print("Todays temperature is",Temperature)
 
 
 #8.
-price = float(input("Enter a value"))
-print("price = ",price)
+#price = float(input("Enter a value"))
+#print("price = ",price)
 
 
 #9.
-Quantity = int(input("Enter quantity"))
-print("Quantity is", Quantity)
+#Quantity = int(input("Enter quantity"))
+#print("Quantity is", Quantity)
 
 
 #10.
-p = int(input("Enter first number"))
-q = int(input("Enter second number"))
-print("Substraction =", p-q)
+#p = int(input("Enter first number"))
+#q = int(input("Enter second number"))
+#print("Substraction =", p-q)
 
 
 #---------------------------------------------------------------------------------------------
@@ -226,3 +226,134 @@ print(e1,e2,e3,e4,e5)
 print(f1,f2,f3,f4,f5)
 
 print(g1,g2,g3,g4,g5)
+
+
+#--------------------------------------------------------------------------------------------------
+# 20 practice questions.
+
+
+#1.
+a= 10 
+b = 20 
+print(a+b)
+
+
+#2
+p = 50
+print(p)
+
+#3
+x= 33
+y = 22
+print(x+y)
+
+#4
+a = 40 
+b = 15 
+print(a-b)
+
+#5
+p = 20 
+q = 5
+print(a*b)
+
+#6
+a = 50 
+b = 5 
+print(a/b)
+
+#7 
+num = 15 
+print(num*num)
+
+#8
+num = 25 
+print(num*num*num)
+
+#9 modulus operator 
+a = 17 
+b = 5 
+print(a/b)
+
+#10
+length = 10 
+width = 5
+print("area of rectangle =",length*width)
+
+#11
+a = 10 
+b = 20 
+c = 30
+print("average =",(a+b+c)/3)
+
+#12
+price = 500
+quantity = 4
+print("total amount =",price*quantity)
+
+#13
+basic_salary = 25000
+hra = basic_salary * 0.10
+da = basic_salary * 0.05
+total_salary = basic_salary + hra + da
+print(total_salary)
+
+#14
+principle = 10000
+rate = 5
+time = 2
+simple_interest = (principle*rate*time)/100
+print(simple_interest)
+
+#15
+a = 15 
+b = 25
+
+#16
+Celcius = 37 
+Fahrenheit = (Celcius*9/5)+32
+print("Fahrenheit=",Fahrenheit)
+
+#17
+variable_marks = 450
+total_marks = 500
+Percentage = (variable_marks/total_marks)*100
+print(Percentage)
+
+
+#18
+length = 10
+breadth = 5
+height = 2
+volume = (length*breadth*height)
+print("volume of cuboid =",volume)
+
+
+#19
+num = 1234
+sum_of_digits = 1+2+3+4
+print(sum_of_digits)
+
+#20
+amount = 1500
+discount = amount*0.20
+Total = (amount-discount)
+print("final amount =",Total)
+
+
+
+#------------------------
+#explicit casting
+
+a = 23,22
+a1 = list(a)
+print(a1,print(a1))
+
+
+
+e = [2,3,4,5]
+f = tuple(e)
+print(f,type(f))
+
+
+
